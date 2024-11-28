@@ -1,3 +1,5 @@
+![entete](../header-dmp.png)
+
 # Première application Ionic
 
 ## Note d'historique
