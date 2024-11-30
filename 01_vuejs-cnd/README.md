@@ -91,7 +91,7 @@ En pur javascript, l'équivalent serait ceci :
 Créer une page web avec deux boutons. Chaque fois que le premier bouton est cliqué, un compteur est incrémenté. Un texte indique la valeur du compteur ainsi que s'il s'agit d'un nombre pair ou impair. Le deuxième bouton permet de montrer/masquer un bloc de texte.
 
 L'état est maintenu dans une variable "counter" et "show".
-Pour ceci, en plus de la directive v-on, utiliser aussi les directives [v-if](https://fr.vuejs.org/api/built-in-directives.html#v-if) et [v-else](https://fr.vuejs.org/api/built-in-directives.html#v-else)
+Pour ceci, en plus de la directive v-on, utiliser aussi les directives [v-if](https://fr.vuejs.org/api/built-in-directives.html#v-if) et [v-else](https://fr.vuejs.org/api/built-in-directives.html#v-else). Voir [le rendu conditionnel](https://fr.vuejs.org/guide/essentials/conditional.html)
 
 ## Exercice 4
 
@@ -190,16 +190,18 @@ En pur javascript, l'équivalent serait ceci :
 
 ## Exercice 6
 Utiliser la directive v-for pour afficher une liste de donnée dans un tableau.
+Utiliser [le rendu de liste](https://fr.vuejs.org/guide/essentials/list.html)
 
 ## Exercice 7
 Afficher de façon aléatoire 4 couleurs parmi la liste suivante. Chaque nom de couleur est affichée dans sa propre couleur.
+Utiliser [la liaison des styles inline](https://fr.vuejs.org/guide/essentials/class-and-style.html#binding-inline-styles)
 
 ~~~js
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 ~~~
 
 ## Exercice 8
-Utiliser [computed](https://fr.vuejs.org/api/reactivity-core.html#computed) pour trier un tableau de donnée en fonction d'une colonne.
+Utiliser [computed](https://fr.vuejs.org/guide/essentials/computed.html) pour trier un tableau de donnée en fonction d'une colonne.
 Le nom de la colonne peut être choisi via un élément select (dropdown).
 
 ## Exercice 9
