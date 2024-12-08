@@ -39,21 +39,19 @@ A titre d'exemple, voici une [implémentation de référence](https://yannicl.gi
 ~~~
 
 3. Modifier le projet généré pour offrir une page listant une liste de livre.
-4. Ajouter une pagination à cette liste pour afficher 5 livres à la fois.
-5. Ajouter une entrée de recherche permettant de filtrer la liste sur base du texte saisi.
-6. Rendre cliquable chaque élément de la liste.
-7. Afficher une page de détail pour chaque livre.
-8. Tester localement l'application.
-9. Compiler l'application
-10. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
+4. Ajouter une entrée de recherche permettant de filtrer la liste sur base du texte saisi.
+5. Rendre cliquable chaque élément de la liste.
+6. Afficher une page de détail pour chaque livre.
+7. Tester localement l'application.
+8. Compiler l'application
+9. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
 
 ## Exigences
 
 1. Le code livré doit être formatté, lisible, sans section exclue comme commentaire.
 2. La liste est affichée à l'aide de la directive [v-for](https://fr.vuejs.org/api/built-in-directives.html#v-for).
 3. La recherche est appliquée sur la liste à l'aide d'une [propriété calculée](https://fr.vuejs.org/guide/essentials/computed).
-4. La pagination ainsi que la page de détail est gérée par une navigation à l'aide de [Vue-Router](https://router.vuejs.org/guide/).
-5. La pagination comprend deux liens "Précédent", "Suivant" qui sont affichés selon la situation.
+
 
 ## Livrables
 

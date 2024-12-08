@@ -5,9 +5,8 @@
 ## Objectifs
 
 - navigation
-- multiple vues, vue gardée, barre de menu
+- multiples vues, vue gardée, barre de menu
 - service global
-- consommation d'API Rest, gestion d'erreur lors de l'appel
 
 ## Installation
 
@@ -314,67 +313,5 @@ export default {
 }
 </style>
 
-~~~
-
-### Page Hébergement
-
-Cette page affiche la disponibilité (en nombre de lits) de différents refuges offerts dans le parc.
-
-Un appel REST permet d'obtenir la disponibilité. L'url et la réponse de cet appel est :
-
-~~~js
-GET http://localhost:3000/hebergements
-
-{
-    'disponibilites': [5, 4, 9, 10]
-}
-~~~
-
-Chacun des refuges est affiché à l'aide d'un composant personnalisé *HebergementCard.vue*
-
-Ce composant reçoit les informations en props et émet des événements lorsque les boutons sont cliqués.
-
-~~~js
-<script>
-export default {
-    emits: ['bookedEvent', 'unbookedEvent'],
-    props : {
-        id: String,
-        imgSrc: String,
-        isBooked: Boolean,
-        isDisabled: Boolean,
-        title: String,
-        availableBeds: Number
-    }
-}
-</script>
-~~~
-
-## Consommation de service distant - [Appel REST](https://www.redhat.com/fr/topics/api/what-is-a-rest-api)
-
-L'API Web utilisée pour faire l'appel est l'[API Fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API).
-
-### *UserService.js*
-~~~js
-async checkin(code) {
-
-    this.loading = true;
-    let formData = new FormData();
-    formData.append('code', code);
-
-    try {
-        const response = await fetch("http://localhost:3000/compte", {
-            method: "POST",
-            body: formData
-        })
-        this.user = await response.json();
-        localStorage.setItem('user', JSON.stringify(this.user));
-    } catch (err) {
-        this.user = null;
-    } finally {
-        this.loading = false
-    }
-
-}
 ~~~
 
