@@ -17,9 +17,9 @@ Commentaire :
 
 Créer une application multi-page à l'aide du framework VueJS.
 
-Cette application permet l'affichage d'une liste d'information, offre une pagination dans la liste ainsi qu'une option de recherche.
+Cette application permet l'affichage d'une liste d'information ainsi qu'une option de recherche dans la liste.
 
-A titre d'exemple, voici une [implémentation de référence](https://yannicl.github.io/).
+A titre d'exemple, voici une [implémentation de référence](https://yannicl.github.io/bibliotheque).
 
 ## Étapes
 
