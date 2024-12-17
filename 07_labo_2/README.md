@@ -38,13 +38,13 @@ A titre d'exemple, voici une [implémentation de référence](https://yannicl.gi
 ✔ Add Vue DevTools 7 extension for debugging? (experimental) … (No) / Yes
 ~~~
 
-3. Modifier le projet généré pour offrir une page listant une liste de livre.
-4. Ajouter une entrée de recherche permettant de filtrer la liste sur base du texte saisi.
-5. Rendre cliquable chaque élément de la liste.
-6. Afficher une page de détail pour chaque livre.
-7. Tester localement l'application.
-8. Compiler l'application
-9. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
+2. Modifier le projet généré pour offrir une page listant la liste des livres (liste disponible dans [assets/books.js](assets/books.js).
+3. Ajouter une entrée de recherche permettant de filtrer la liste sur base du texte saisi.
+4. Rendre cliquable chaque élément de la liste.
+5. Afficher une page de détail pour chaque livre. Choisissez quelques (3) propriétés parmi les propriétés disponibles.
+6. Tester localement l'application.
+7. Compiler l'application
+8. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
 
 ## Exigences
 
