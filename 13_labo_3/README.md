@@ -9,7 +9,7 @@ Numéro d'étudiant : (à remplir)
 
 Url du site : (à remplir)
 
-Résultat : / 10
+Résultat : / 20
 
 Commentaire :
 
@@ -34,14 +34,17 @@ A titre d'exemple, voici une capture des 3 écrans est disponible :
 $ ionic start labo3 tabs --type vue
 ~~~
 
-2. à venir
-6. Tester localement l'application.
-7. Compiler l'application
-8. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
+2. Développer l'application
+3. Tester localement l'application
+4. Compiler l'application
+5. Déployer les fichiers compilés sur un site public (par exemple sur GitHub)
 
 ## Exigences
 
-1. à venir
+1. Utilisation du plugin Geolocation pour obtenir la position géographique de l'utilisateur.
+2. Utilisation du plugin CapacitorHttp pour appeler l'API de météo (api.open-meteo.com).
+3. Les différentes pages de l'application sont présentées à l'aide d'onglets (tabs).
+4. Les composants visuels utilisés sont les composants Ionic.
 
 
 ## Livrables
